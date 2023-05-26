@@ -2,7 +2,7 @@
 
   
 ## Goal of this Project
-Now you will create your first Python program. You will create an interactive Quiz Game. This   Quiz Game uses everything you learned in the Basiscs course so far! You will see all the knowledge you learned in action of a real program. Also you will be able to adjust the game yourself. Having your own game in your portfolio will proof that you know the most important basics of Python.
+Now you will create your first Python program. You will create an interactive Quiz Game. This Quiz Game uses everything you learned in the Basiscs course so far! You will see all the knowledge you learned in action of a real program. Also you will be able to adjust the game yourself. Having your own game in your portfolio will proof that you know the most important basics of Python.
 
 
 ## Structure of the Program
@@ -129,10 +129,12 @@ print(choice(colours))
 - Let the user write an answer
 - Check if the answer of the user matches the right answer.
 - Let him know if the answer was correct or not.
+- If it was correct the function should return the bollean True. If its wrong it should return the boolean False.
 - When hitting RUN the program should execute this function.
+- Save the returned boolean value (True or False) in a variable, so we can reuse it later.
+
 
 *HINTS:*
-
 - Store the question and the answer in a seperate variable. The set has 2 elements. To get for example the first value of the set (question) do this:
 ```python
 some_set = ("question", "answer")
@@ -147,8 +149,44 @@ question = some_set[0]
 *Learn Resources:*
 - Check out following chapters of the Python Basics course: print, variables, functions, while loop, if else condition, sets
 
+## 6. Count the score of the user
+*TASKS:*
+- For that tasks we only have to work in the function main() in the file main.py
+- Everytime the user gets a right answer he should get a point.
+- At the end of the game we want to print out the score of the user.
 
-## 6. Add Function with all the Print Statements
+*HINTS:*
+- In the beginning of the game define a variable score with the value of 0
+- In the task before we have saved a boolean which tells us if the answer was right (True) or not (False).
+- Use an if else condition to check the boolean value.
+- If its True then add 1 to our score variable.
+
+*Learn Resources:*
+- Check out following chapters of the Python Basics course: print, variables, if else condition
+
+## 7. Play many rounds
+*TASKS:*
+- For that tasks we only have to work in the function main() in the file main.py
+- The game should go over many rounds (at least 2)
+- At the beginning of the round let the user know in which round he is
+
+
+*HINTS:*
+- Like with the score before, define a variable for rounds. This one should have the value 1 at the beginning.
+- Now use a while loop to play the same game many times
+- At the end of the loop at 1 to the round number
+- At the beginning of the loop use a condition which checks for the round number. If you want 2 rounds you can say "while rounds<=2:"
+
+
+*Learn Resources:*
+- Check out following chapters of the Python Basics course: print, variables, while loop
+
+
+
+
+
+
+## 8. Add Function with all the Print Statements
 The Quiz has a lot of Print Statements that the user sees in the console.
 To avoid to write all the print statement in our "main.py" we will outsource them into a function. This function we then can call and tell it which print block we want to use. A Print block are just many print commands in a row that we want to use together. 
 For example:
@@ -190,8 +228,6 @@ def main():
   ```
 
 
-
-
 *HINTS:*
 - Use If Else Blocks to check which value the input parameter "category" has. Then execute the matching Print Block
 - To add a variable inside a print function you can use "formatting". For that put a "f" before the string. Than inside curley brackets you can insert the variable.
@@ -207,3 +243,23 @@ def some_function(this_parameter_is_required, this_not=None):
 
 *Learn Resources:*
 - Check out following chapters of the Python Basics course: print, variables, functions, if else condition
+
+## 9. Improve the Game
+*TASKS:*:
+- Add a replay functionality for the user after the game is finished
+- Add settings in the beginning. The user should be able to choose how many rounds he wants to play
+- Add a timer for each question.
+- In the settings add the difficulty of the game. Here for example the time for each question can be different and the question can be more dificult
+- We can persist the score of each user and write it into a file. Also add the date of the achieved score. In the beginning of each game show the ranking of all players. You dont know how to read and write to files yet. For that use google/chatgpt. Try to find out how to use the function "with open()"
+  
+
+## 10. Implement your own Ideas to Improve the Game
+You have already created a simple quiz game. 
+Now, i want you to come up with your own ideas to improve the quiz game. You will learn to estimate which ideas are easy to implement and which are not worth the time. The goal should be to add as much value as possible with as little effort as possible.
+
+
+*TASKS:*:
+- I want you to come up with 3-5 ideas how to improve the quiz game.
+- Improvement could be in user experience, error resistance, game logic, code style and more
+- If you have a great idea, but dont know how to implement it, ask your teacher for support
+- implement those ideas
