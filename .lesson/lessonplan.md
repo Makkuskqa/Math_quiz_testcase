@@ -1,20 +1,11 @@
 # Lesson plan
   
-  ** this file should contain teacher lesson plan details ** 
+## Quiz Improvement IDeas
+- API for random questions ([Trivia PI](https://api-ninjas.com/api/trivia))
+- Sound for right/wrong answers
+- The same question cant be asked again
+- The username cant be already taken in the score table
+- Timer
+- Score depending on time
+- Add coloured prints for better user experience
 
-  __ students will never see this __
-
-  ## Learning Objectives
-  1. 
-  2. 
-  3. 
-
-  Use [Markdown](https://gist.github.com/cuonggt/9b7d08a597b167299f0d) to format your lesson plan.
-
-  For example, here is a code block in python3
-```python
-def hello_world():
-  print("hello world!")
-```
-
-  

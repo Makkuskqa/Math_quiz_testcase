@@ -248,8 +248,7 @@ def some_function(this_parameter_is_required, this_not=None):
 *TASKS:*:
 - Add a replay functionality for the user after the game is finished
 - Add settings in the beginning. The user should be able to choose how many rounds he wants to play
-- Add a timer for each question.
-- In the settings add the difficulty of the game. Here for example the time for each question can be different and the question can be more dificult
+- In the settings add the difficulty of the game. Depending on it, the user should get an "easy" or a "difficult" question.
 - We can persist the score of each user and write it into a file. Also add the date of the achieved score. In the beginning of each game show the ranking of all players. You dont know how to read and write to files yet. For that use google/chatgpt. Try to find out how to use the function "with open()"
   
 

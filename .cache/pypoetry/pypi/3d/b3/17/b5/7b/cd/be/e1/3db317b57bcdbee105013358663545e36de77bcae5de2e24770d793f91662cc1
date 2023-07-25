@@ -1,0 +1,1 @@
+9999999999{"name": "Levenshtein", "version": "0.21.1", "summary": "Python extension for computing string edit distances and similarities.", "platform": null, "requires_dist": ["rapidfuzz (<4.0.0,>=2.3.0)"], "requires_python": ">=3.6", "files": [], "_cache_version": "1.0.0"}
