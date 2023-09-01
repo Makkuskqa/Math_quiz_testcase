@@ -1,1 +1,0 @@
-9999999999{"name": "fuzzywuzzy", "version": "0.18.0", "summary": "Fuzzy string matching in python", "platform": "", "requires_dist": ["python-levenshtein (>=0.12) ; extra == 'speedup'"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}
